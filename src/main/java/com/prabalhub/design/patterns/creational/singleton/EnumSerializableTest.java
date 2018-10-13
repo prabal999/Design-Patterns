@@ -1,4 +1,4 @@
-package com.test;
+package com.prabalhub.design.patterns.creational.singleton;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

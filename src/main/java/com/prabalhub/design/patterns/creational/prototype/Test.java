@@ -21,7 +21,7 @@ public class Test {
         hindi.setName("Hindi");
         Subject english = new Subject();
         english.setName("English");
-        List<Subject> subjects = new ArrayList<>();
+        List<Subject> subjects = new ArrayList<Subject>();
         subjects.add(hindi);
         subjects.add(english);
 
@@ -74,7 +74,7 @@ class Student implements PrototypeCapable {
     public Student clone() throws CloneNotSupportedException {
         Student student = (Student)super.clone();
         student.setStandard(getStandard().clone());
-        List<Subject> subjects = new ArrayList<>(getSubjects().size());
+        List<Subject> subjects = new ArrayList<Subject>(getSubjects().size());
         for(Subject subject : getSubjects()) {
             subjects.add(subject.clone());
         }
