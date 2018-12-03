@@ -54,5 +54,6 @@ public class Demo {
 		System.out.println(dev4.getDetails());
 		
 		dev1.getAll(); // Not supported in leaf.
+		
 	}
 }

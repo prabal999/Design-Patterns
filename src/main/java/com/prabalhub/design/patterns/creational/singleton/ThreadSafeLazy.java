@@ -13,7 +13,8 @@ import java.util.logging.Logger;
  *
  */
 //Marking class final: So the child class cannot clone it.
-public class ThreadSafeLazy implements Serializable {
+// default constructor is private and no other constructor is there, thats why class can't be extended.
+final public class ThreadSafeLazy implements Serializable {
 
 	// Serial version ID for object deserialization.
 	private static final long serialVersionUID = -1007406750793642211L;
